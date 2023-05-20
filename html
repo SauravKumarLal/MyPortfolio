@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Labrada:ital,wght@0,200;1,100;1,200&family=Raleway:wght@200&display=swap" rel="stylesheet"> -->
+    <link rel="icon" href="logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utilities.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header class="main">
+        <header class="header1">
+            <nav>
+                <div>
+                    <a href="" class="navbar-logo">
+                        <img src="logoo.png" alt="LOGO" width="50px" height="50px">
+                    </a>
+                </div>
+                <div class="navbar">
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <header class="header2">
+            <div class="master1">
+                <div class="master2">
+                    <h1 class="name">SAURAV KUMAR LAL</h1>
+                    <h2 class="quote">-Transfering ideas into programs</h2>
+                    <!-- <a class="btn1" href="#button" ></a> -->
+                    <button class="btn btn1">Download CV</button>
+                </div>
+            </div>
+        </header>
+    </header>
+    <section id="hi" class="vidsection">
+        <div class="leftsection">
+            <a href="" class="vid1">
+                <video autoplay loop muted width="80%" src="vid-3840x2160-25fps.mp4"></video>
+                <!-- <source src="vid-3840x2160-25fps.mp4" type="video/mp4"> -->
+            </a>
+        </div>
+        <div class="rightsection">
+            <p>
+                Hi There! I am <span class="color">Saurav. </span>
+            </p>
+            <p>
+                I am a passionate
+                <br>
+                <span id="element"></span>
+                <!-- Web Developer. -->
+            </p>
+        </div>
+    </section>
+    <section id="about" class="about">
+        <div class="container">
+            <div class="div1">
+                <div class="div2">
+                    <h2>Education</h2>
+                    <p class="education">
+                        <br>
+                        VIT | Bachelor of Technology, Computer Science with Information Security | 9.21 CGPA
+                        <br>
+                        2021 - 2025
+                        <br><br>
+                        Allen Career Institute, Kota | PCM | 90.4%
+                        <br>
+                        2018 - 2020
+                        <br><br>
+                        St. Joseph's Public School | CBSE | 94.8%
+                        <br>
+                        2008 - 2018
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed('#element', {
+        strings: ['Web <i>Developer</i>,', '&amp; Graphic <i>Designer</i>.'],
+        typeSpeed: 50,
+        backDelay: 1500,
+        loop: true,
+      });
+    </script>
+</body>
