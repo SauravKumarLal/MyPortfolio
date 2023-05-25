@@ -1,1 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Labrada:ital,wght@0,200;1,100;1,200&family=Raleway:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,200;0,300;1,200&display=swap");
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-logo {
+  display: flex;
+  padding-left: 100px;
+}
+
+.header1 {
+  background-color: transparent;
+  font-family: "Labrada", serif;
+  font-family: "Raleway", sans-serif;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar {
+  flex-grow: 1; /*read about it!!!!*/
+  text-align: right;
+  padding-right: 100px;
+}
+
+.navbar li {
+  display: inline-block;
+  margin-left: 10px;
+  /* padding-right: 10px; */
+}
+
+.navbar li a {
+  float: right;
+  color: white;
+  padding: 13px 20px 13px;
+  /* text-align: left; */
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  background-color: #ee534f;
+  color: yellowgreen;
+
+  padding-top: 10px;
+}
