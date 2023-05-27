@@ -85,3 +85,22 @@ body {
   letter-spacing: 0.2rem;
   padding-bottom: 60px;
 }
+
+.master1 {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50vb;
+}
+
+.master2 {
+  text-align: center;
+  padding-top: 150px;
+}
+
+.vidsection {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 10px;
+  background-color: black;
+  overflow: hidden;
+}
