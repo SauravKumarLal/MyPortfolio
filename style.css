@@ -104,3 +104,45 @@ body {
   background-color: black;
   overflow: hidden;
 }
+
+
+.leftsection {
+  flex-basis: 800px;
+  padding-left: 10vw;
+  /* margin-right: 40vw; */
+  overflow: hidden;
+}
+
+.rightsection {
+  background: black;
+  color: white;
+  display: inline;
+  /* justify-content: flex-start;
+    align-items: center; */
+  padding-top: 9%;
+  font-size: 1.6rem;
+  font-weight: 900;
+}
+
+.color {
+  color: #ee534f;
+}
+
+.about {
+  background-image: url("demo11.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: scroll;
+  background-color: black;
+  padding-top: 12vw;
+  padding-bottom: 10vw;
+  color: white;
+  align-items: center;
+}
+
+.about h2 {
+  color: #ee534f;
+  font-weight: 900;
+  font-size: 1.6rem;
+}
