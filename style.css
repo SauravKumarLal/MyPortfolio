@@ -205,3 +205,58 @@ body {
   line-height: 1.3;
   text-align: justify;
 }
+
+
+.right {
+  padding-top: 40px;
+  width: 50%;
+}
+
+.right img {
+  width: 100%;
+  height: auto;
+}
+
+.contacts {
+  display: flex;
+  padding: 5vw 10vw;
+  /* background-color: #ee534f; */
+}
+
+.con-left {
+  width: 50%;
+}
+
+.con-left h1 {
+  
+  /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+  font-size: 1.9rem;
+  font-weight: 900;
+  padding: 5px 0 15px;
+}
+
+.con-right {
+  width: 50%;
+}
+
+.con-right img {
+  width: 80%;
+  height: auto;
+  padding: 50px;
+}
+
+.boxes {
+  background-color: #f74943c0;
+  width: 250px;
+  height: auto;
+  border-radius: 5%;
+  border: 1px solid #f8b802;
+  padding: 10px 10px 0 10px;
+  margin: 10px 0 20px 110px;
+  text-align: center;
+}
+
+.box-heading{
+  font-weight: 700;
+  padding: 20px;
+}
