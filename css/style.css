@@ -104,7 +104,7 @@ body {
 }
 
 .main {
-  background-image: url("portfoliobg.jpg");
+  background-image: url("css_img/portfoliobg.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -172,7 +172,7 @@ body {
 }
 
 .about {
-  background-image: url("demo11.png");
+  background-image: url("css_img/demo11.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -205,7 +205,7 @@ body {
 }
 
 .study {
-  background-image: url("demo222.png");
+  background-image: url("css_img/demo22.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -489,4 +489,5 @@ span:hover {
   text-align: center;
   padding: 20px;
 }
+
 
